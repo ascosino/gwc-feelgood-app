@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1147B20C2547AEFB00B6998A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1147B20B2547AEFB00B6998A /* AppDelegate.swift */; };
+		1147B20E2547AEFB00B6998A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1147B20D2547AEFB00B6998A /* SceneDelegate.swift */; };
+		1147B2102547AEFB00B6998A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1147B20F2547AEFB00B6998A /* ViewController.swift */; };
+		1147B2132547AEFB00B6998A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1147B2112547AEFB00B6998A /* Main.storyboard */; };
+		1147B2152547AEFB00B6998A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1147B2142547AEFB00B6998A /* Assets.xcassets */; };
+		1147B2182547AEFB00B6998A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1147B2162547AEFB00B6998A /* LaunchScreen.storyboard */; };
+		1147B2232547AEFB00B6998A /* gwc_feelgood_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1147B2222547AEFB00B6998A /* gwc_feelgood_appTests.swift */; };
+		1147B22E2547AEFC00B6998A /* gwc_feelgood_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1147B22D2547AEFC00B6998A /* gwc_feelgood_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1147B21F2547AEFB00B6998A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1147B2002547AEFB00B6998A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1147B2072547AEFB00B6998A;
+			remoteInfo = "gwc-feelgood-app";
+		};
+		1147B22A2547AEFB00B6998A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1147B2002547AEFB00B6998A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1147B2072547AEFB00B6998A;
+			remoteInfo = "gwc-feelgood-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1147B2082547AEFB00B6998A /* gwc-feelgood-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gwc-feelgood-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1147B20B2547AEFB00B6998A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1147B20D2547AEFB00B6998A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1147B20F2547AEFB00B6998A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1147B2122547AEFB00B6998A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1147B2142547AEFB00B6998A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1147B2172547AEFB00B6998A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1147B2192547AEFB00B6998A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1147B21E2547AEFB00B6998A /* gwc-feelgood-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gwc-feelgood-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1147B2222547AEFB00B6998A /* gwc_feelgood_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gwc_feelgood_appTests.swift; sourceTree = "<group>"; };
+		1147B2242547AEFB00B6998A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1147B2292547AEFB00B6998A /* gwc-feelgood-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gwc-feelgood-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1147B22D2547AEFC00B6998A /* gwc_feelgood_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gwc_feelgood_appUITests.swift; sourceTree = "<group>"; };
+		1147B22F2547AEFC00B6998A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1147B2052547AEFB00B6998A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1147B21B2547AEFB00B6998A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1147B2262547AEFB00B6998A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1147B1FF2547AEFB00B6998A = {
+			isa = PBXGroup;
+			children = (
+				1147B20A2547AEFB00B6998A /* gwc-feelgood-app */,
+				1147B2212547AEFB00B6998A /* gwc-feelgood-appTests */,
+				1147B22C2547AEFC00B6998A /* gwc-feelgood-appUITests */,
+				1147B2092547AEFB00B6998A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1147B2092547AEFB00B6998A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1147B2082547AEFB00B6998A /* gwc-feelgood-app.app */,
+				1147B21E2547AEFB00B6998A /* gwc-feelgood-appTests.xctest */,
+				1147B2292547AEFB00B6998A /* gwc-feelgood-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1147B20A2547AEFB00B6998A /* gwc-feelgood-app */ = {
+			isa = PBXGroup;
+			children = (
+				1147B20B2547AEFB00B6998A /* AppDelegate.swift */,
+				1147B20D2547AEFB00B6998A /* SceneDelegate.swift */,
+				1147B20F2547AEFB00B6998A /* ViewController.swift */,
+				1147B2112547AEFB00B6998A /* Main.storyboard */,
+				1147B2142547AEFB00B6998A /* Assets.xcassets */,
+				1147B2162547AEFB00B6998A /* LaunchScreen.storyboard */,
+				1147B2192547AEFB00B6998A /* Info.plist */,
+			);
+			path = "gwc-feelgood-app";
+			sourceTree = "<group>";
+		};
+		1147B2212547AEFB00B6998A /* gwc-feelgood-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				1147B2222547AEFB00B6998A /* gwc_feelgood_appTests.swift */,
+				1147B2242547AEFB00B6998A /* Info.plist */,
+			);
+			path = "gwc-feelgood-appTests";
+			sourceTree = "<group>";
+		};
+		1147B22C2547AEFC00B6998A /* gwc-feelgood-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1147B22D2547AEFC00B6998A /* gwc_feelgood_appUITests.swift */,
+				1147B22F2547AEFC00B6998A /* Info.plist */,
+			);
+			path = "gwc-feelgood-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1147B2072547AEFB00B6998A /* gwc-feelgood-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1147B2322547AEFC00B6998A /* Build configuration list for PBXNativeTarget "gwc-feelgood-app" */;
+			buildPhases = (
+				1147B2042547AEFB00B6998A /* Sources */,
+				1147B2052547AEFB00B6998A /* Frameworks */,
+				1147B2062547AEFB00B6998A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gwc-feelgood-app";
+			productName = "gwc-feelgood-app";
+			productReference = 1147B2082547AEFB00B6998A /* gwc-feelgood-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1147B21D2547AEFB00B6998A /* gwc-feelgood-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1147B2352547AEFC00B6998A /* Build configuration list for PBXNativeTarget "gwc-feelgood-appTests" */;
+			buildPhases = (
+				1147B21A2547AEFB00B6998A /* Sources */,
+				1147B21B2547AEFB00B6998A /* Frameworks */,
+				1147B21C2547AEFB00B6998A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1147B2202547AEFB00B6998A /* PBXTargetDependency */,
+			);
+			name = "gwc-feelgood-appTests";
+			productName = "gwc-feelgood-appTests";
+			productReference = 1147B21E2547AEFB00B6998A /* gwc-feelgood-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1147B2282547AEFB00B6998A /* gwc-feelgood-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1147B2382547AEFC00B6998A /* Build configuration list for PBXNativeTarget "gwc-feelgood-appUITests" */;
+			buildPhases = (
+				1147B2252547AEFB00B6998A /* Sources */,
+				1147B2262547AEFB00B6998A /* Frameworks */,
+				1147B2272547AEFB00B6998A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1147B22B2547AEFB00B6998A /* PBXTargetDependency */,
+			);
+			name = "gwc-feelgood-appUITests";
+			productName = "gwc-feelgood-appUITests";
+			productReference = 1147B2292547AEFB00B6998A /* gwc-feelgood-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1147B2002547AEFB00B6998A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					1147B2072547AEFB00B6998A = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					1147B21D2547AEFB00B6998A = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1147B2072547AEFB00B6998A;
+					};
+					1147B2282547AEFB00B6998A = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1147B2072547AEFB00B6998A;
+					};
+				};
+			};
+			buildConfigurationList = 1147B2032547AEFB00B6998A /* Build configuration list for PBXProject "gwc-feelgood-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1147B1FF2547AEFB00B6998A;
+			productRefGroup = 1147B2092547AEFB00B6998A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1147B2072547AEFB00B6998A /* gwc-feelgood-app */,
+				1147B21D2547AEFB00B6998A /* gwc-feelgood-appTests */,
+				1147B2282547AEFB00B6998A /* gwc-feelgood-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1147B2062547AEFB00B6998A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1147B2182547AEFB00B6998A /* LaunchScreen.storyboard in Resources */,
+				1147B2152547AEFB00B6998A /* Assets.xcassets in Resources */,
+				1147B2132547AEFB00B6998A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1147B21C2547AEFB00B6998A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1147B2272547AEFB00B6998A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1147B2042547AEFB00B6998A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1147B2102547AEFB00B6998A /* ViewController.swift in Sources */,
+				1147B20C2547AEFB00B6998A /* AppDelegate.swift in Sources */,
+				1147B20E2547AEFB00B6998A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1147B21A2547AEFB00B6998A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1147B2232547AEFB00B6998A /* gwc_feelgood_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1147B2252547AEFB00B6998A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1147B22E2547AEFC00B6998A /* gwc_feelgood_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1147B2202547AEFB00B6998A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1147B2072547AEFB00B6998A /* gwc-feelgood-app */;
+			targetProxy = 1147B21F2547AEFB00B6998A /* PBXContainerItemProxy */;
+		};
+		1147B22B2547AEFB00B6998A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1147B2072547AEFB00B6998A /* gwc-feelgood-app */;
+			targetProxy = 1147B22A2547AEFB00B6998A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1147B2112547AEFB00B6998A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1147B2122547AEFB00B6998A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1147B2162547AEFB00B6998A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1147B2172547AEFB00B6998A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1147B2302547AEFC00B6998A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1147B2312547AEFC00B6998A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1147B2332547AEFC00B6998A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 227H6BC36L;
+				INFOPLIST_FILE = "gwc-feelgood-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ascosino.gwc-feelgood-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1147B2342547AEFC00B6998A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 227H6BC36L;
+				INFOPLIST_FILE = "gwc-feelgood-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ascosino.gwc-feelgood-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1147B2362547AEFC00B6998A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 227H6BC36L;
+				INFOPLIST_FILE = "gwc-feelgood-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ascosino.gwc-feelgood-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gwc-feelgood-app.app/gwc-feelgood-app";
+			};
+			name = Debug;
+		};
+		1147B2372547AEFC00B6998A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 227H6BC36L;
+				INFOPLIST_FILE = "gwc-feelgood-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ascosino.gwc-feelgood-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gwc-feelgood-app.app/gwc-feelgood-app";
+			};
+			name = Release;
+		};
+		1147B2392547AEFC00B6998A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 227H6BC36L;
+				INFOPLIST_FILE = "gwc-feelgood-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ascosino.gwc-feelgood-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gwc-feelgood-app";
+			};
+			name = Debug;
+		};
+		1147B23A2547AEFC00B6998A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 227H6BC36L;
+				INFOPLIST_FILE = "gwc-feelgood-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ascosino.gwc-feelgood-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gwc-feelgood-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1147B2032547AEFB00B6998A /* Build configuration list for PBXProject "gwc-feelgood-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1147B2302547AEFC00B6998A /* Debug */,
+				1147B2312547AEFC00B6998A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1147B2322547AEFC00B6998A /* Build configuration list for PBXNativeTarget "gwc-feelgood-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1147B2332547AEFC00B6998A /* Debug */,
+				1147B2342547AEFC00B6998A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1147B2352547AEFC00B6998A /* Build configuration list for PBXNativeTarget "gwc-feelgood-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1147B2362547AEFC00B6998A /* Debug */,
+				1147B2372547AEFC00B6998A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1147B2382547AEFC00B6998A /* Build configuration list for PBXNativeTarget "gwc-feelgood-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1147B2392547AEFC00B6998A /* Debug */,
+				1147B23A2547AEFC00B6998A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1147B2002547AEFB00B6998A /* Project object */;
+}
