@@ -1,4 +1,6 @@
 //
+// Hi everyone! If you're reading this, you've made it! To let us know that you've completed cloning the repository, or "repo" as we'll say very often, send a message in our groupchat and send a smiley face or an emoji that you'd like (leave everyone guessing and wondering why there's random faces (; )
+//
 //  AppDelegate.swift
 //  gwc-feelgood-app
 //
